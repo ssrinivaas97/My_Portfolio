@@ -116,16 +116,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineer",
+    company_name: "K7 Computing Private Limited",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2019 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develped and maintained automation scripts using python for assessing the product’s (K7 Total Security) performance and minimized the manual work by 4hrs/person.day",
+      "Scanned different malicious samples using profile scanner, an internal python tool to identify and report highly impactful product binaries aiding in the reduction of the size of binaries up to 60 KB.",
+      "Prepare a competitor analysis report which made the product compete with other major AV Vendors (McAfee, Kaspersky, Avira) in terms of ratings and usability metrics.",
+      "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test.",
     ],
   },
   {
@@ -147,19 +147,6 @@ const experiences = [
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dribble Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows user to share, edit and create projects to keep dev community connected with respect to projects",
     tags: [
       {
         name: "react",
@@ -219,20 +206,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AI Article Summarizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application similar to chatGPT capable of scraping the links and provide user with the needed and precise summary of the page swiftly.",
     tags: [
       {
-        name: "react",
+        name: "vite",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "reduxtoolKit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +227,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "E-Commerce Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive clothing website which allows user to browse through specific categories, use dynamic shopping cart, exclusive deals and safe checkout.",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "stripe",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],

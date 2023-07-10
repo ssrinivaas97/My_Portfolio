@@ -124,36 +124,12 @@ const experiences = [
     points: [
       "Develped and maintained automation scripts using python for assessing the product’s (K7 Total Security) performance and minimized the manual work by 4hrs/person.day",
       "Scanned different malicious samples using profile scanner, an internal python tool to identify and report highly impactful product binaries aiding in the reduction of the size of binaries up to 60 KB.",
-      "Prepare a competitor analysis report which made the product compete with other major AV Vendors (McAfee, Kaspersky, Avira) in terms of ratings and usability metrics.",
-      "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test.",
+      "Prepare a competitor analysis report which made the product compete with other major AV Vendors (McAfee, Kaspersky, Avira) in terms of ratings and usability metrics",
+      "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  
 ];
 
 const testimonials = [
@@ -203,7 +179,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ssrinivaas97/Flexxible_proj",
   },
   {
     name: "AI Article Summarizer",
@@ -224,7 +200,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ssrinivaas97/AI-Summarizer",
   },
   {
     name: "E-Commerce Website",
@@ -246,6 +222,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car showcase",
+    description:
+      "A fully operable car rental website , which allows user to browse , filter, choose and rent various car models with a descriptive catalogue for each.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/ssrinivaas97/CAR_RENTAL",
   },
 ];
 

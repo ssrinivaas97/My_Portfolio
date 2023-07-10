@@ -25,6 +25,8 @@ import {
   threejs,
 } from "../assets";
 
+
+
 export const navLinks = [
   {
     id: "about",
@@ -221,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: meta,
     source_code_link: "https://github.com/ssrinivaas97/E_Commerce",
   },
   {

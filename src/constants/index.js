@@ -123,6 +123,7 @@ const experiences = [
     date: "June 2019 - July 2022",
     points: [
       "Develped and maintained automation scripts using python for assessing the product’s (K7 Total Security) performance and minimized the manual work by 4hrs/person.day",
+      "Ensured product performance by leveraging the developed python scripts, to perform file copying, loading websites, and file installation. Analyzed monthly reports in detail using windows process monitor which led to a perfect product score of 6/6 by AV-Test",
       "Scanned different malicious samples using profile scanner, an internal python tool to identify and report highly impactful product binaries aiding in the reduction of the size of binaries up to 60 KB.",
       "Prepare a competitor analysis report which made the product compete with other major AV Vendors (McAfee, Kaspersky, Avira) in terms of ratings and usability metrics",
       "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test",
@@ -166,11 +167,11 @@ const projects = [
       "Web-based platform that allows user to share, edit and create projects to keep dev community connected with respect to projects",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "grafbase",
         color: "green-text-gradient",
       },
       {
@@ -221,7 +222,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ssrinivaas97/E_Commerce",
   },
   {
     name: "Car showcase",
@@ -229,15 +230,15 @@ const projects = [
       "A fully operable car rental website , which allows user to browse , filter, choose and rent various car models with a descriptive catalogue for each.",
     tags: [
       {
-        name: "react.js",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "stripe",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],

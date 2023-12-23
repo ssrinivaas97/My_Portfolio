@@ -164,6 +164,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AI Learning Platform",
+    description:
+      "A fully functional SAAS educational course generator, powered by Open AI API and Youtube API enabling interactive quizzes and relevant educational videos.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Open AI API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mobile,
+    source_code_link: "https://github.com/ssrinivaas97/AI_Assisted_Learning_Platform",
+  },
+  {
     name: "Dribble Clone",
     description:
       "Web-based platform that allows user to share, edit and create projects to keep dev community connected with respect to projects",
@@ -247,6 +268,7 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/ssrinivaas97/CAR_RENTAL",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

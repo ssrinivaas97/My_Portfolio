@@ -19,13 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
+  sampletest,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
-
-
 
 export const navLinks = [
   {
@@ -49,7 +48,7 @@ const services = [
   },
   {
     title: "React Native Developer",
-    icon: mobile,
+    icon: creator,
   },
   {
     title: "Backend Developer",
@@ -124,6 +123,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2019 - July 2022",
     points: [
+      "Developed and maintained an admin dashboard using React and SyncFusion UI, which includes a Kanban board, calendars, and charts for centralized task management and data tracking which resulted in improved product performance and a 30% reduction in data loss",
       "Develped and maintained automation scripts using python for assessing the product’s (K7 Total Security) performance and minimized the manual work by 4hrs/person.day",
       "Ensured product performance by leveraging the developed python scripts, to perform file copying, loading websites, and file installation. Analyzed monthly reports in detail using windows process monitor which led to a perfect product score of 6/6 by AV-Test",
       "Scanned different malicious samples using profile scanner, an internal python tool to identify and report highly impactful product binaries aiding in the reduction of the size of binaries up to 60 KB.",
@@ -131,8 +131,6 @@ const experiences = [
       "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test",
     ],
   },
-  
-  
 ];
 
 const testimonials = [
@@ -182,7 +180,8 @@ const projects = [
       },
     ],
     image: mobile,
-    source_code_link: "https://github.com/ssrinivaas97/AI_Assisted_Learning_Platform",
+    source_code_link:
+      "https://github.com/ssrinivaas97/AI_Assisted_Learning_Platform",
   },
   {
     name: "Dribble Clone",
@@ -268,7 +267,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/ssrinivaas97/CAR_RENTAL",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

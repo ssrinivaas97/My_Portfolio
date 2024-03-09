@@ -1,4 +1,5 @@
 import {
+  messenger,
   mobile,
   backend,
   creator,
@@ -24,6 +25,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  MERN_Chat_AI,
 } from "../assets";
 
 export const navLinks = [
@@ -184,46 +186,25 @@ const projects = [
       "https://github.com/ssrinivaas97/AI_Assisted_Learning_Platform",
   },
   {
-    name: "Dribble Clone",
+    name: "AI MERN Chat Bot",
     description:
-      "Web-based platform that allows user to share, edit and create projects to keep dev community connected with respect to projects",
+      "A custom chatbot leveraging MERN stack and OpenAI's API, Vite-built with Material-UI for real-time AI conversations and a seamless, modern user experience.",
     tags: [
       {
-        name: "next.js",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "grafbase",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material_ui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: MERN_Chat_AI,
     source_code_link: "https://github.com/ssrinivaas97/Flexxible_proj",
-  },
-  {
-    name: "AI Article Summarizer",
-    description:
-      "Web application similar to chatGPT capable of scraping the links and provide user with the needed and precise summary of the page swiftly.",
-    tags: [
-      {
-        name: "vite",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reduxtoolKit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/ssrinivaas97/AI-Summarizer",
   },
   {
     name: "E-Commerce Website",
@@ -246,6 +227,28 @@ const projects = [
     image: meta,
     source_code_link: "https://github.com/ssrinivaas97/E_Commerce",
   },
+  {
+    name: "Messenger Application",
+    description:
+      "A Messenger app with real-time chat, secure authentication, dynamic state management, and advanced error handling for a reliable and user-friendly experience.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: messenger,
+    source_code_link: "https://github.com/ssrinivaas97/AI-Summarizer",
+  },
+  
   {
     name: "Car showcase",
     description:

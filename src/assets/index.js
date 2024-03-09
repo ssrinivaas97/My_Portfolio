@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import sampletest from "./sampletest.png"
+import MERN_Chat_AI from "./MERN_Chat_AI.png"
+import messenger from "./messenger.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,6 +34,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  messenger,
+  MERN_Chat_AI,
   sampletest,
   logo,
   backend,

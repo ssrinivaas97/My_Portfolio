@@ -204,7 +204,7 @@ const projects = [
       },
     ],
     image: MERN_Chat_AI,
-    source_code_link: "https://github.com/ssrinivaas97/Flexxible_proj",
+    source_code_link: "https://github.com/ssrinivaas97/AI_Powered_ChatGPT",
   },
   {
     name: "E-Commerce Website",
@@ -246,7 +246,7 @@ const projects = [
       },
     ],
     image: messenger,
-    source_code_link: "https://github.com/ssrinivaas97/AI-Summarizer",
+    source_code_link: "https://github.com/ssrinivaas97/MERN_Messenger",
   },
   
   {

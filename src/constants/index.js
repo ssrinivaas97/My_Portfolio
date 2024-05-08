@@ -248,7 +248,32 @@ const projects = [
     image: messenger,
     source_code_link: "https://github.com/ssrinivaas97/MERN_Messenger",
   },
-  
+  {
+    name: "AI Enabled Messenger",
+    description:
+      "An AI-enhanced messenger supporting real-time messaging, image generation, video calls, and group management within a user-friendly interface.",
+    tags: [
+      {
+        name: "Convex",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+        
+      },
+      {
+        name: "Open AI",
+        color: "blue-text-gradient",        
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/ssrinivaas97/AI_Assisted_Messenger",
+  },
   {
     name: "Car showcase",
     description:
@@ -267,7 +292,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: carrent,
     source_code_link: "https://github.com/ssrinivaas97/CAR_RENTAL",
   },
 ];

@@ -47,16 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am Sunil Srinivaas Krishnamoorthi Ganesan, a driven software
-        engineering graduate student at Northeastern University completing my
+        I am Sunil Srinivaas Krishnamoorthi Ganesan, a driven computer
+        engineering graduate student from Northeastern University holding a
         Master's degree in Software Engineering Systems. With expertise in
-        Python, Java, and object-oriented programming, I possess the technical
-        skills for software development. I specialize in full-stack web
-        development, utilizing Next.js, MERN stack, and Vite to create dynamic
-        and user-friendly web applications. Experienced in front-end programming
-        with SCSS, JavaScript, and TypeScript, I craft intuitive and responsive
-        user interfaces. A quick learner with a passion for problem-solving, I
-        am eager to contribute my skills and grow as a software engineer.
+        Python, Java, and object-oriented programming, I believe I possess the
+        technical skills for software development. I specialize in full-stack
+        web development, utilizing Next.js, MERN stack, and Vite to create
+        dynamic and user-friendly web applications. Experienced in SQL and NoSQL
+        databases, Tailwind CSS, JavaScript, and TypeScript, I craft intuitive
+        web apps with interactive UI. A quick learner with a passion for
+        problem-solving, I am eager to contribute my skills and grow as a
+        software engineer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -183,7 +183,7 @@ const projects = [
     ],
     image: mobile,
     source_code_link:
-      "https://github.com/ssrinivaas97/AI_Assisted_Learning_Platform",
+      "https://github.com/AnirudhVijayaraghavan/CSYE7230-Software-Engineering-Project_A3",
   },
   {
     name: "AI MERN Chat Bot",

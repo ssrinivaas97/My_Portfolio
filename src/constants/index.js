@@ -1,4 +1,5 @@
 import {
+  Zapid,
   messenger,
   mobile,
   backend,
@@ -186,25 +187,25 @@ const projects = [
       "https://github.com/AnirudhVijayaraghavan/CSYE7230-Software-Engineering-Project_A3",
   },
   {
-    name: "AI MERN Chat Bot",
+    name: "Zapid Food Delivery Website",
     description:
-      "A custom chatbot leveraging MERN stack and OpenAI's API, Vite-built with Material-UI for real-time AI conversations and a seamless, modern user experience.",
+      "Zapid Food Delivery is a modern, full-stack app for seamless food ordering, featuring user authentication, real-time order tracking, and secure online payments.",
     tags: [
       {
         name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "OpenAI",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "material_ui",
+        name: "express.js",
         color: "pink-text-gradient",
       },
     ],
-    image: MERN_Chat_AI,
-    source_code_link: "https://github.com/ssrinivaas97/AI_Powered_ChatGPT",
+    image: Zapid,
+    source_code_link: "https://github.com/SunilS97/Zapid_Food_Del",
   },
   {
     name: "E-Commerce Website",

@@ -20,7 +20,6 @@ import {
   meta,
   starbucks,
   carrent,
-  jobit,
   tripguide,
   advantage,
   reality,

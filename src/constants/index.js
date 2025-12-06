@@ -19,14 +19,12 @@ import {
   docker,
   meta,
   starbucks,
-  tesla,
-  shopify,
-  sampletest,
   carrent,
   jobit,
   tripguide,
-  threejs,
-  MERN_Chat_AI,
+  advantage,
+  reality,
+  django,
 } from "../assets";
 
 export const navLinks = [
@@ -102,7 +100,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: django,
   },
   {
     name: "git",
@@ -134,6 +132,29 @@ const experiences = [
       "Created monthly performance analysis reports which aided in analyzing and fine-tuning the product’s performance, leading to the AVC-GOLD award given by AV-Test",
     ],
   },
+  {
+    title: "Software Developer",
+    company_name: "Reality AI",
+    icon: reality,
+    iconBg: "#383E56",
+    date: "July 2024 - July 2025",
+    points: [
+      " Built and deployed full-stack features for Marvel AI using Next.js, React, Firebase, and Firestore, enabling scalable tools adopted by 1,500+ educators across 20+ countries",
+      "Developed AI-driven tools like a Quiz Generator and Flashcard Creator, enhanced UI with Material UI and Redux, and contributed to beta releases from v1.0 to v4.0 in an agile, open-source workflow",
+      "Integrated AI Chatbots using OpenAI API and Pinecone vector database to provide real-time assistance, improving user engagement and satisfaction by 25%",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Advantage IT INC",
+    icon: advantage,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Contributing to backend development of an AI-powered educational platform on Google Cloud Platform (GCP) using Node.js, TypeScript, Firebase Cloud Functions, Firestore, and Vertex AI for AI-based story, image, and music generation with COPPA compliant data handling",
+      "Collaborating with the frontend team using TypeScript, Vite, Tailwind CSS, and Firebase Hosting to integrate APIs; enhancing Firestore security, CI/CD with GitLab, and GCP deployments as part of ongoing feature expansion",
+    ],
+  }
 ];
 
 const testimonials = [
@@ -265,11 +286,10 @@ const projects = [
       {
         name: "Next.js",
         color: "pink-text-gradient",
-        
       },
       {
         name: "Open AI",
-        color: "blue-text-gradient",        
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,

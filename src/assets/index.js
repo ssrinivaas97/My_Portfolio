@@ -9,7 +9,7 @@ import close from "./close.svg";
 import sampletest from "./sampletest.png"
 import MERN_Chat_AI from "./MERN_Chat_AI.png"
 import messenger from "./messenger.png"
-
+import django from "./tech/django.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -33,7 +33,8 @@ import Zapid from "./Zapid.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import reality from "./company/reality.png";
+import advantage from "./company/advantage.png";
 export {
   Zapid,
   messenger,
@@ -67,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  reality,
+  django,
+  advantage,
 };
